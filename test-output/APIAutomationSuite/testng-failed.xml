@@ -3,6 +3,11 @@
 <suite name="Failed suite [APIAutomationSuite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="APITests(failed)">
     <classes>
+      <class name="test.LogoutTest">
+        <methods>
+          <include name="testLogoutAPI"/>
+        </methods>
+      </class> <!-- test.LogoutTest -->
       <class name="test.Logintest">
         <methods>
           <include name="testLoginAPI"/>

@@ -3,7 +3,7 @@
     <test name="APITests">
         <classes>
             <class name="test.Logintest"/>
-           
+           <class name="test.LogoutTest"/>
         </classes>
     </test>
 </suite>
